@@ -1,0 +1,52 @@
+body {
+    background-color: #ccc;
+}
+
+.janken {
+display:flex;
+justify-content: center;
+
+}
+
+.selections {
+cursor: pointer;
+background: none;
+outline: none;
+margin: 2rem;
+justify-content: space-around;
+font-size: 5rem;
+color: red;
+border-radius: 30%;
+transition: 200ms; /*za fluidnu tranziciju prilikom pritiska na tipku*/
+}
+
+.selections:hover{
+transform: scale(1.5); /* za povećanje ikone prilikom prelaska kursorom preko*/
+}
+
+.results{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+.score{
+font-size: 0.75rem;
+margin-left: 1rem;
+color: gray;
+
+}
+
+.winner{
+opacity: 1;
+font-size: 1.5rem;
+}
+
+.loser{
+opacity: .75;
+font-size: 0.75rem;
+}
