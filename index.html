@@ -4,32 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kamen-skare-papir</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer> </script>
     <script src="https://kit.fontawesome.com/553cdbb937.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="janken">
-        <button class="selections" data-selection="paper"><i class="fa-solid fa-hand"></i></button>
-        <button class="selections" data-selection="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
-        <button class="selections" data-selection="rock"><i class="fa-solid fa-hand-fist"></i></button>
+        <button class="selections" data-selection = "paper"><i class="fa-solid fa-hand"></i></button>
+        <button class="selections" data-selection = "scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        <button class="selections" data-selection = "rock"><i class="fa-solid fa-hand-fist"></i></button>
 
     </div>
     <div class ="results">
-        <div  class= "me">
-            <span class="score">
+        <div > ME 
+            <span class="score" data-your-score>
                 0
             </span>
         </div>
-        <div class="com">
-            <span class="score">
+        <div > COMPUTER
+            <span class="score" data-computer-score>
                 0
             </span>
         </div>  
 
-      <!--  <div class="winner"><i class="fa-solid fa-hand"></i></div>
-        <div class="loser"><i class="fa-solid fa-fist"></i></div>-->
 
     </div>
 </body>
